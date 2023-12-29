@@ -6,11 +6,11 @@ const connectDB = require( "./confiq/db" )
 require("dotenv").config()
 
 connectDB()
-
+app.use(cors())
 
 const port=process.env.PORT
 
-app.use(cors())
+
 app.use(express.json())
 
 app.use("/movies",movieRouter)
