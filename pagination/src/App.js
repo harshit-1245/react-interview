@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 // import ImageUpload from './ImageUpload';
 // import DragAndDrop from './DragAndDrop';
-import VideoUpload from './VideoUpload';
+// import VideoUpload from './VideoUpload';
+import VideoBackground from './VideoBackground';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
     {/* <ImageUpload/> */}
     {/* <DragAndDrop/> */}
-    <VideoUpload/>
+    {/* <VideoUpload/> */}
+    <VideoBackground/>
     </div>
   );
 }
