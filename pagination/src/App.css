@@ -163,55 +163,94 @@ p {
   z-index: -1;
 }
 
-.content-area {
-  /* Styles for your content area */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
-.outerbox {
+.user-search-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.innerbox {
   position: relative;
-  width: 300px;
+  margin-top: 50px;
 }
 
-input[type='text'] {
+.user-search-input {
   width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
   padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 25px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-search-input input {
+  flex: 1;
+  border: none;
+  height: 30px;
+  padding: 8px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.user-search-input input:focus {
   outline: none;
 }
 
-.suggestion-box {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
-  width: 100%;
+.suggestions-list {
   max-height: 200px;
   overflow-y: auto;
-  border: 1px solid #ccc;
-  border-top: none;
-  border-radius: 0 0 5px 5px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: calc(100% - 20px);
   background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.suggestion-box div {
+.suggestions-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   padding: 10px;
   cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s ease;
 }
 
-.suggestion-box div:hover {
-  background-color: #f0f0f0;
+.suggestions-list li:last-child {
+  border-bottom: none;
 }
 
-.selected {
+.suggestions-list li:hover {
+  background-color: #f9f9f9;
+}
+
+.suggestions-list li img {
+  height: 30px;
+  border-radius: 50%;
+}
+
+.user-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   background-color: #007bff;
   color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.user-pill img {
+  height: 20px;
+  border-radius: 50%;
 }
