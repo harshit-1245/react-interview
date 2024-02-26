@@ -254,3 +254,25 @@ body {
   height: 20px;
   border-radius: 50%;
 }
+.download-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+}
+
+.download-image {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #007bff; /* Adjust background color as needed */
+  color: #fff; /* Adjust text color as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-image:hover {
+  background-color: #0056b3; /* Adjust hover background color as needed */
+}
+
