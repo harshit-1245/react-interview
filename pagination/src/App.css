@@ -262,6 +262,8 @@ body {
 }
 
 .download-image {
+  display: flex;
+  justify-content: space-evenly;
   padding: 10px 20px;
   font-size: 1.2rem;
   background-color: #007bff; /* Adjust background color as needed */
@@ -276,3 +278,71 @@ body {
   background-color: #0056b3; /* Adjust hover background color as needed */
 }
 
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box-container {
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  border: 2px dashed #aaa; /* Dashed border */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust margin as needed */
+  margin-left: 50%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+.progress-bar {
+  height: 10px;
+  background-color: #007bff; /* Progress bar color */
+  margin-top: 10px;
+  transition: width 0.5s ease; /* Animation duration and timing function */
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-container {
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  border: 2px dashed #aaa; /* Dashed border */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}

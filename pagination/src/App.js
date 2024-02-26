@@ -3,6 +3,7 @@ import './App.css';
 import ImageWithUrl from './ImageWithUrl';
 import InputQuestion from './InputQuestion';
 import DownloadImage from './DownloadImage';
+import Upload from './Upload';
 // import ImageUpload from './ImageUpload';
 // import DragAndDrop from './DragAndDrop';
 // import VideoUpload from './VideoUpload';
@@ -18,7 +19,8 @@ function App() {
     {/* <VideoBackground/> */}
     {/* <ImageWithUrl/> */}
     {/* <InputQuestion/> */}
-    <DownloadImage/>
+    {/* <DownloadImage/> */}
+    <Upload/>
     </div>
   );
 }

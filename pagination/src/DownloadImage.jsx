@@ -35,13 +35,13 @@ const DownloadImage = () => {
 
   return (
     <div className='download-container'>
-      <button className='download-button' onClick={handleDownloadImage}>
+      <button className='download-image' onClick={handleDownloadImage}>
         Download Image
       </button>
-      <button className='download-button' onClick={handleDownloadTextFile}>
+      <button className='download-image' onClick={handleDownloadTextFile}>
         Download Text File
       </button>
-      <button className='download-button' onClick={handleDownloadPdf}>
+      <button className='download-image' onClick={handleDownloadPdf}>
         Download PDF
       </button>
     </div>
