@@ -4,6 +4,7 @@ import ImageWithUrl from './ImageWithUrl';
 import InputQuestion from './InputQuestion';
 import DownloadImage from './DownloadImage';
 import Upload from './Upload';
+import ReactQuery from './ReactQuery';
 // import ImageUpload from './ImageUpload';
 // import DragAndDrop from './DragAndDrop';
 // import VideoUpload from './VideoUpload';
@@ -20,7 +21,8 @@ function App() {
     {/* <ImageWithUrl/> */}
     {/* <InputQuestion/> */}
     {/* <DownloadImage/> */}
-    <Upload/>
+    {/* <Upload/> */}
+    <ReactQuery/>
     </div>
   );
 }
