@@ -5,6 +5,8 @@ import InputQuestion from './InputQuestion';
 import DownloadImage from './DownloadImage';
 import Upload from './Upload';
 import ReactQuery from './ReactQuery';
+// import VideoBox from './VideoBox';
+import VideoPlayer from './VideoPlayer';
 // import ImageUpload from './ImageUpload';
 // import DragAndDrop from './DragAndDrop';
 // import VideoUpload from './VideoUpload';
@@ -22,7 +24,8 @@ function App() {
     {/* <InputQuestion/> */}
     {/* <DownloadImage/> */}
     {/* <Upload/> */}
-    <ReactQuery/>
+    {/* <ReactQuery/> */}
+    <VideoPlayer/>
     </div>
   );
 }
